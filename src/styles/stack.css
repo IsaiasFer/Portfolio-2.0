@@ -1,0 +1,50 @@
+.stack_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #BCBCBC;
+}
+.stack_info h4 .resalt{
+    color:#00FFFF;
+}
+.stack_info>*{
+    margin:0;
+    padding:0
+}
+.stack_info h4{
+    text-align: center;
+    font-size: 40px;
+}
+.stack_info h3{
+    font-size: 40px;
+    color:white;
+    margin-bottom: 0.5em;
+}
+.stacklogo{
+    color:#00FFFF;
+    width: 8em;
+    height: 6em;
+    margin: 1.4em;
+    transition: .3s;
+}
+.stack{
+    background: #005D5D;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2em 10em;
+}
+.stack_icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.stacklogo:hover{
+    width: 9em;
+    height: 7em;
+}

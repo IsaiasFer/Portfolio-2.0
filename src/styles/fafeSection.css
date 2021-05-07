@@ -1,0 +1,43 @@
+.fafe_section{
+    background: #012727;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #707070;
+    font-weight: 600;
+    padding: 4em 6.3em;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.fafe_section>*>*{
+    margin: 0;
+    padding:0;
+}
+.fafe_section-info h2 .resalt{
+    color:#B4BE2C;
+}
+.fafe_section-info{
+    overflow: hidden;
+}
+.fafe_section-info h2{
+    font-size: 72px;
+}
+.fafe_section-info h4{
+    width: 60%;
+    font-size: 32px;
+    font-weight: 400;
+}
+.fafe_section-anounce h4{
+    font-size: 32px;
+    font-weight: 400;
+}
+#Componente_3_1{
+    position: absolute;
+    width: 40%;
+    height: 86%;
+    right: -60px;
+    bottom: -60px;
+}

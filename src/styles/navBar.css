@@ -1,0 +1,15 @@
+.barra_navegación-principal{
+    width: 38%;
+    margin: 2.8em 0 0 6.3em;
+}
+.lista_navegacion-principal{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin:0;
+    padding: 0;
+}
+.lista_navegacion-principal li{
+    list-style: none;
+    color:#5B5B5B;
+}

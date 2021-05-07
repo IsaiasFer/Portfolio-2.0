@@ -1,0 +1,56 @@
+.studySection{
+    width:100%;
+    height: 175vh;
+    min-height: 1100px;
+    background: #003E3E;
+    padding: 5em 8em;
+    box-sizing: border-box;
+}
+.studySection>h3{
+    margin: 0 0 1.5em;
+    font-size:48px;
+    font-weight: 600;
+    color:white;
+}
+.schools{
+    display: flex;
+    flex-direction: column;
+}
+.schoolSection{
+    display:flex;
+    margin-bottom: 3.7em;
+}
+.schoolSectionReverse{
+    display:flex;
+    flex-direction: row-reverse;
+    margin-bottom: 3.7em
+}
+.school_info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.school_info>*>*{
+    margin:0
+}
+.schoolSectionReverse>div>div>*{
+    text-align: right;
+}
+.school_image{
+    margin: 0 2em;
+}
+.school_name{
+    font-weight: 600;
+    font-size: 40px;
+}
+.school_name,.school_description,.school_courses,.school_time{
+    color:white;
+}
+.school_courses{
+    font-weight: 400;
+    font-size: 28px;
+}
+.school_description,.school_time{
+    font-weight: 100;
+    font-size: 20px;
+}
