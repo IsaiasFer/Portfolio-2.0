@@ -10,7 +10,7 @@ class Projects extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section className="projects">
+        <section id='Projects' className="projects">
           <h3>Proyectos de Software</h3>
           <div className="projectsLayout">
             <Project

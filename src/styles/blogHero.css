@@ -1,0 +1,26 @@
+.blog_hero{
+    background: #01DCFF;
+    height: 18em;
+    min-height: 288px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog_presentation{
+    box-sizing: border-box;
+    padding: 2em 0 0 7em;
+}
+.blog_title h1{
+    font-family:"Playfair Display";
+    font-size: 32px;
+    font-weight: 400;
+    display: inline;
+}
+.blog_title h3{
+    font-size: 16px;
+    font-weight: 600;
+    display: inline;
+}
+.blog_description p{
+    font-family:"Playfair Display";
+    line-height: 1.5;
+}

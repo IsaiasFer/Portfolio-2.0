@@ -17,10 +17,11 @@
     list-style: none;
     padding: 0;
     margin:0 0 1em;
-    text-decoration: underline;
     transition: .3s;
-    cursor: pointer;
     width: fit-content;
+}
+.bottom_activities ul li a{
+    color:unset;
 }
 .bottom_activities ul li:hover{
     color:white;
@@ -29,11 +30,11 @@
     text-decoration: none;
     cursor: unset;
 }
+.bottom_activities ul li:last-child a{
+    color: white;
+}
 .bottom_activities ul li:last-child:hover{
     color:unset
-}
-.bottom_link{
-    color: white;
 }
 .bottom_activities ul{
     padding: 0;
@@ -59,5 +60,7 @@
     margin: .5em 0 0;
     line-height: 1.5;
 }
-
+.bottom_link{
+    color: white;
+}
 
