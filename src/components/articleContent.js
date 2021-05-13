@@ -1,6 +1,10 @@
 import React from 'react'
 import Icon from '../components/icon.js'
 
+import '../styles/article.css'
+import ArticleTag from './articleTag.js'
+import ShareLink from './ShareLink.js'
+
 function ArticleContent(){
     return(
         <section className="article">
@@ -27,12 +31,12 @@ function ArticleContent(){
                     </div>
                 </div>
             </div>
-            <div className="article_image-principal">
+            <figure className="article_image-principal">
                 <img src="https://i.imgur.com/3w92n12.jpg" alt="" />
-            </div>
+            </figure>
             <div className="article_content">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit ab illo porro corporis, sed explicabo enim accusantium. Error neque iusto perferendis incidunt a corrupti ipsa sint assumenda quae laborum?
+                    Muchos lo intentaron, pocos pudieron. La hidromiel es una de esas bebidas exoticas que pensamos que nunca podriamos llegar a tomar por su disficultosa elaboración, pero nada mas lejos de la realidad, veamos como producirr hidromiel en casa:
                 </p>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rerum voluptatibus harum temporibus excepturi necessitatibus quia praesentium, iusto facilis! Ad doloribus nam iusto distinctio tenetur dolorem veniam harum officiis mollitia.
@@ -42,17 +46,20 @@ function ArticleContent(){
                 </p>
             </div>
             <div className="article_tags">
-                <h5>inspiration</h5>
-                <h5>inspiration</h5>
-                <h5>inspiration</h5>
+                <ArticleTag tag='inspiration'/>
+                <ArticleTag tag='inspiration'/>
+                <ArticleTag tag='inspiration'/>
             </div>
             <div className="shareSection">
                 <h3>Compartir</h3>
                 <div className="social_icons-share">
-                    
+                    <ShareLink name='twitter'/>
+                    <ShareLink name='facebook'/>
+                    <ShareLink name='linkedin'/>
+                    <ShareLink name='email'/>
                 </div>
-                <h3>Cuentame que te pareció este ariculo <a target='blank' href="https://twitter.com/IsaiasFer4">Aquí</a></h3>
             </div>
+                <h3 className='giveMeFeedback'>Cuentame que te pareció este articulo <a target='blank' href="https://twitter.com/IsaiasFer4">Aquí</a></h3>
         </section>
     )
 }
