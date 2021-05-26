@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 .blog_article_title{
-    margin:0;
+    margin:.2em 0;
 }
 
 .blog_article_title a,.blog_article_description{
@@ -39,6 +39,8 @@
 .blog_article_description{
     font-size: 16px;
     font-weight: 400;
+    font-family: 'Merriweather';
+    color:gray
 }
 .blog_article_image-container{
     width: 100%;

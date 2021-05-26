@@ -4,6 +4,7 @@ import BlogHome from '../pages/Blog.js';
 import Footer from './footer.js';
 import ArticlePage from '../pages/articlePage.js';
 
+
 function App() {
     return (
       <BrowserRouter>

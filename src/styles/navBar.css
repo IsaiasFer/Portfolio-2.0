@@ -25,3 +25,9 @@
     text-decoration: none;
     color:#5B5B5B;
 }
+@media screen and (max-width:768px){
+    .barra_navegación-principal{
+        width: 45%;
+        padding: 0 0 0 3em;
+    }
+}

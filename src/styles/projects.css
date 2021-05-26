@@ -71,3 +71,23 @@
    fill    : currentcolor;
 /*    transform:translate(0 -0.45) */
 }
+@media screen and (max-width:768px){
+    .projects{
+        height: 160vh;
+    }
+    .project_info h3{
+        font-size: 20px;
+    }
+    .project_group{
+        align-items: center;
+        width: 100%;
+        height: 25%;
+        margin: .3em 0;
+    }
+    .project_img{
+        max-height: 6em;
+    }
+    .project_info p{
+        font-size: 16px;
+    }
+}

@@ -54,3 +54,22 @@
     font-weight: 100;
     font-size: 20px;
 }
+@media screen and (max-width:768px){
+    .studySection{
+        padding: 2em 3em;
+        min-height: 910px;
+    }
+    .studySection>h3{
+        font-size: 40px;
+    }
+    .school_image{
+        margin: 0 1em;
+        max-height: 9em;
+    }
+    .school_name{
+        font-size: 32px;
+    }
+    .school_description,.school_time{
+        font-size: 16px;
+    }
+}

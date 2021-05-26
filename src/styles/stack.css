@@ -48,3 +48,18 @@
     width: 9em;
     height: 7em;
 }
+@media screen and (max-width:768px){
+    .stack{
+        padding: 2em 3em;
+    }
+    .stack_info h3 {
+        font-size: 32px;
+    }
+    .stack_info h4 {
+        font-size: 30px;
+    }
+    .stacklogo{
+        width: 7em;
+        height: 4em;
+    }
+}

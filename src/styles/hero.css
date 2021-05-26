@@ -45,3 +45,18 @@ background: linear-gradient(72deg, rgba(0,255,255,1) 0%, rgba(0,255,255,1) 47%, 
     margin:0;
     padding: 0;
 }
+@media screen and (max-width:768px){
+  .hero_info{
+    margin: 0 0 3.5em 3em;
+  }
+  .hero_info h1{
+    font-size:48px
+  }
+  .hero_info h4{
+    font-size:32px
+  }
+  .hero_info h5{
+    font-size:24px
+  }
+
+}
