@@ -3,7 +3,9 @@ import React from "react";
 function School(props) {
   return (
     <div className={props.class}>
-      <img className='school_image' src={props.image} alt="" />
+      <a href={props.url} target='blank'>
+        <img className='school_image' src={props.image} alt="" />
+      </a>
       <div className="school_info">
         <div className="school_info-up">
           <h2 className='school_name'>{props.title}</h2>

@@ -6,7 +6,9 @@ class Project extends React.Component{
     return (
       <div className="project_group">
       <div className="project_visual">
-        <img src={this.props.logo} alt='' className="project_img" />
+        <a href={this.props.url} target='blank'>
+          <img src={this.props.logo} alt='' className="project_img" />
+        </a>
         <div className="project_tecs">
           <ProjectTecIcons icons={iconos}/>
         </div>

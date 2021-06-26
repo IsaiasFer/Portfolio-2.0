@@ -1,0 +1,30 @@
+.separadorSection {
+  position: relative;
+}
+.custom-shape-divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  &-bottom {
+    @extend .custom-shape-divider;
+    top:unset;
+    bottom: 0;
+    transform: rotate(180deg);
+  }
+}
+
+.custom-shape-divider{
+    svg{
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+    }
+    &-bottom svg{
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+    }
+}

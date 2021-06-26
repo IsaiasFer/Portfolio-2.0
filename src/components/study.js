@@ -7,6 +7,7 @@ function Study(){
             <h3>Lugares donde estudié</h3>
             <div className="schools">
                 <School
+                    url='https://platzi.com/'
                     class='schoolSection'
                     image='https://i.imgur.com/g7HrStZ.png'
                     title='Platzi'
@@ -15,6 +16,7 @@ function Study(){
                     time='2020 - actualmente'
                 />
                 <School
+                    url='https://iita.com.ar/salta/'
                     class='schoolSectionReverse'
                     image='https://i.imgur.com/l8r1gtG.png'
                     title='IITA'
@@ -23,6 +25,7 @@ function Study(){
                     time='2020'
                 />
                 <School
+                    url='https://isaiasfer.github.io/SchoolWeb-2.0/'
                     class='schoolSection'
                     image='https://i.imgur.com/7ymG1mA.png'
                     title='EETN° 3141'
@@ -31,6 +34,7 @@ function Study(){
                     time='2016 - actulmente'
                 />
                 <School
+                    url='http://www.unsa.edu.ar/web/index.php'
                     class='schoolSectionReverse'
                     image='https://i.imgur.com/AIEonI0.png'
                     title='UNSa'

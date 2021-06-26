@@ -12,8 +12,8 @@ function BottomSection() {
       <div className="bottom_activities">
         <ul>
           <li><a href="https://www.facebook.com/100010382286145/videos/1397997727222957/" target='blank'>Toco Guitarra</a></li>
-          <li><a href="/" target='blank'>Salgo a correr</a></li>
-          <li><a href="/" target='blank'>Tomo fotografías</a></li>
+          <li><a href="https://www.facebook.com/photo?fbid=1490658047956924&set=a.108224689533607" target='blank'>Produzco Hidromiel</a></li>
+          <li><a href="https://www.instagram.com/p/CPQ5WD8HE94/?utm_source=ig_web_copy_link" target='blank'>Salgo a recorrer lugares nuevos</a></li>
           <li>
             También estoy empezando a escribir un blog, si te gustaría verlo,
             haz click <Link to='/blog' className="bottom_link">aquí</Link>
