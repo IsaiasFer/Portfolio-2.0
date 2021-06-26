@@ -1,8 +1,6 @@
 import React from 'react'
 import School from './schools'
 
-import '../styles/study.css'
-
 function Study(){
     return(
         <section className='studySection'>

@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../styles/blogHero.css";
-
 function BlogHero() {
   return (
     <section className="blog_hero">

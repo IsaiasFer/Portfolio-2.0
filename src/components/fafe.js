@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../styles/fafeSection.css";
-
 function FafeSection() {
   return (
     <React.Fragment>

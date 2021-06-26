@@ -10,7 +10,7 @@
   height: 100%;
   justify-content: flex-end;
   background: rgb(0,255,255);
-background: linear-gradient(72deg, rgba(0,255,255,1) 0%, rgba(0,255,255,1) 47%, rgba(252,176,69,0) 62%);
+background: linear-gradient(72deg, rgba(20,255,236,1) 0%, rgba(20,255,236,1)47%, rgba(252,176,69,0) 62%);
 }
 .hero_image {
   height: 100%;
@@ -30,10 +30,11 @@ background: linear-gradient(72deg, rgba(0,255,255,1) 0%, rgba(0,255,255,1) 47%, 
 .hero_info h1{
     font-size: 72px;
     font-weight: 600;
+    color: #212121;
 }
 .hero_info h4{
     font-size: 40px;
-    color: #707070;
+    color: #323232;
     font-weight: 400;
 }
 .hero_info h5{
@@ -59,4 +60,29 @@ background: linear-gradient(72deg, rgba(0,255,255,1) 0%, rgba(0,255,255,1) 47%, 
     font-size:24px
   }
 
+}
+@media screen and (max-width:425px){
+  .hero_image-container{
+    background: linear-gradient(72deg, rgba(0,255,255,1) 0%, rgba(0,255,255,1) 40%, rgba(252,176,69,0) 62%);
+  }
+  .hero_image{
+    left: -40%;
+    position: absolute;
+  }
+  .hero_info{
+    margin: 0 7em 0em 2em;
+    height: calc(100vh - 4em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero_info h1{
+    font-size:40px
+  }
+  .hero_info h4{
+    font-size:24px
+  }
+  .hero_info h5{
+    font-size:20px
+  }
 }

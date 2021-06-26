@@ -5,7 +5,7 @@
     color: #BCBCBC;
 }
 .stack_info h4 .resalt{
-    color:#00FFFF;
+    color:#14ffec;
 }
 .stack_info>*{
     margin:0;
@@ -21,14 +21,15 @@
     margin-bottom: 0.5em;
 }
 .stacklogo{
-    color:#00FFFF;
+    fill: currentColor;
     width: 8em;
     height: 6em;
     margin: 1.4em;
     transition: .3s;
+    color:#14ffec
 }
 .stack{
-    background: #005D5D;
+    background: #212121;
     height: 100vh;
     width: 100%;
     display: flex;

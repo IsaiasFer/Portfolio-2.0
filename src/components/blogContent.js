@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../styles/blogContent.css'
 import Article from './blogArticle'
 
 function BlogContent(){

@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import '../styles/navBar.css'
-
 class Navbar extends React.Component {
   render(props) {
     return (

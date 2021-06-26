@@ -1,0 +1,15 @@
+.menu{
+    height: 50px;
+    left: 1em;
+    top: 1em;
+    z-index: 2;
+    display: none;
+    color: #212121;
+    fill: currentColor;
+    position: fixed;
+}
+@media screen and (max-width:767px){
+.menu{
+    display: block;
+}
+}

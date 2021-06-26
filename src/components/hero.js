@@ -1,6 +1,4 @@
 import React from "react";
-
-import "../styles/hero.css";
 import NavBarContainer from "./navBarContainer";
 
 class Hero extends React.Component {

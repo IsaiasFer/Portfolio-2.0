@@ -1,11 +1,11 @@
 .fafe_section{
-    background: #012727;
+    background: #0d7377;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #707070;
+    color: #323232;
     font-weight: 600;
     padding: 4em 6.3em;
     box-sizing: border-box;
@@ -24,6 +24,7 @@
 }
 .fafe_section-info h2{
     font-size: 72px;
+    color: #212121;
 }
 .fafe_section-info h4{
     width: 60%;
@@ -51,4 +52,17 @@
     .fafe_section-anounce h4,.fafe_section h4{
         font-size: 24px;
     }
+}
+@media screen and (max-width:425px){
+    .fafe_section{
+        padding: 1em 1.5em;
+    }
+    .fafe_section h2{
+        font-size: 32px;
+    }
+    .fafe_section-anounce h4,.fafe_section h4{
+        font-size: 20px;
+        width: 90%;
+    }
+    
 }

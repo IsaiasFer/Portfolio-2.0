@@ -1,6 +1,5 @@
 import React from "react";
 
-import "../styles/article.css";
 import ArticleTag from "./articleTag.js";
 import ShareLink from "./ShareLink.js";
 

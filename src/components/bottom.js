@@ -1,7 +1,6 @@
 import React from "react";
 import Icon from "./icon";
 
-import "../styles/bottom.css";
 import { Link } from "react-router-dom";
 
 function BottomSection() {

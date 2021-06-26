@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,AAAC,CACf,UAAU,CAAE,UAAU,CACtB,OAAO,CAAE,aAAa,CACvB,AACD,AACE,gBADc,CACd,EAAE,AAAC,CACD,SAAS,CAAE,IAAI,CAChB,AAHH,AAIE,gBAJc,CAId,CAAC,AAAC,CACA,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,GAAG,CAChB,KAAK,CAAE,GAAG,CACX",
+    "sources": [
+        "../scss/aboutMe.scss"
+    ],
+    "names": [],
+    "file": "aboutMe.css"
+}

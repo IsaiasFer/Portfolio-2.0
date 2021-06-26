@@ -1,7 +1,6 @@
 import React from "react";
 import Project from "./project";
 
-import "../styles/projects.css";
 class Projects extends React.Component {
   constructor() {
     super();
