@@ -1,2 +1,2 @@
-.aboutMe_section{box-sizing:border-box;padding:0em 0 4em 8em}.aboutMe_content h2{font-size:48px}.aboutMe_content p{line-height:1.5;font-weight:400;width:50%}
+.aboutMe_section{box-sizing:border-box;padding:1em 0 0em 8em;display:flex}.aboutMe_content{display:flex;flex-direction:column;width:50%}.aboutMe_content h2{font-size:48px;margin-top:0}.aboutMe_content p{line-height:1.5;font-weight:400}.aboutMePic{width:50%;display:flex;justify-content:center}.aboutMePic .aboutMePicContainer{width:65%;margin:0}.aboutMePic .aboutMePicContainer img{width:100%}
 /*# sourceMappingURL=aboutMe.css.map */

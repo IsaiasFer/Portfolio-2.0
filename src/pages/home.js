@@ -18,9 +18,9 @@ class Home extends React.Component{
             <React.Fragment>
                 <MenuIcon/>
                 <Hero/>
-                <Separador color='red' bottom reverse/>
+                <Separador color='white' bottom/>
                 <AboutMe/>
-                <Separador color='blue' bottom/>
+                <Separador color='#0d7377' bottom/>
                 <FafeSection/>
                 <Stack/>
                 <Projects/>

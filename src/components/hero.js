@@ -18,7 +18,7 @@ class Hero extends React.Component {
           
           <img
             className="hero_image"
-            src="https://i.imgur.com/2CvbDnr.jpg"
+            src="https://i.imgur.com/2CvbDnrh.jpg"
             alt=""
           />
         </div>
