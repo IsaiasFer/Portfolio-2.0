@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBarContainer from '../components/navBarContainer'
 import ArticleContent from '../components/articleContent'
-import "../styles/css/articlePage.css"
+import "../styles/scss/articlePage.scss"
 
 function ArticlePage(){
     return(

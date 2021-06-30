@@ -9,8 +9,8 @@ import Study from '../components/study'
 import MenuIcon from '../components/menuIcon'
 import Separador from '../components/separator'
 
-import '../styles/css/globalStyles.css'
-import '../styles/css/homePage.css'
+import '../styles/scss/globalStyles.scss'
+import '../styles/scss/homePage.scss'
 
 class Home extends React.Component{
     render(){
