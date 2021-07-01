@@ -7,7 +7,7 @@
     color:#0d7377;
     display: flex;
     flex-direction: column;
-    font-size: 32px;
+    font-size: 2em;
     font-weight: 600;
 }
 .bottom_title h3{
@@ -83,5 +83,19 @@
     .bottom_CTA p{
         font-size: 24px;
     }
+}
 
+@media screen and (max-width:425px){
+    .bottom_section{
+        height: unset;
+        padding:1em;
+    }
+    .bottom_CTA,.bottom_activities{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:320px){
+    .bottom_section{
+        padding:0;
+    }
 }

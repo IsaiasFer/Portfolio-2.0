@@ -1,6 +1,12 @@
 import React from "react";
 
 function Separador(props) {
+  let alto;
+  if(window.innerWidth<=425){
+    alto="40px"
+  }else{
+    alto="93px"
+  }
   if (props.bottom) {
     if (props.reverse) {
       return (
@@ -12,7 +18,7 @@ function Separador(props) {
               viewBox="0 0 1200 120"
               preserveAspectRatio="none"
               transform="rotateY(180deg)"
-              height="93px"
+              height={alto}
             >
               <path
                 d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
@@ -44,7 +50,7 @@ function Separador(props) {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1200 120"
               preserveAspectRatio="none"
-              height="93px"
+              height={alto}
             >
               <path
                 d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
@@ -79,7 +85,7 @@ function Separador(props) {
               viewBox="0 0 1200 120"
               preserveAspectRatio="none"
               transform="rotateY(180deg)"
-              height="93"
+              height={alto}
             >
               <path
                 d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
@@ -111,7 +117,7 @@ function Separador(props) {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1200 120"
               preserveAspectRatio="none"
-              height="93px"
+              height={alto}
             >
               <path
                 d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"

@@ -1,88 +1,117 @@
+$proporcionFoto: 0.72;
+
 .hero {
   width: 100%;
   height: 100vh;
-}
-.hero_image-container {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  justify-content: flex-end;
-  background: rgb(0,255,255);
-background: linear-gradient(72deg, rgba(20,255,236,1) 0%, rgba(20,255,236,1)47%, rgba(252,176,69,0) 62%);
+  position: relative;
 }
 .hero_image {
   height: 100%;
   z-index: -1;
-}
-.hero_content{
+  &-container {
+    display: flex;
+    padding: 0;
+    margin: 0;
     width: 100%;
     height: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
+    justify-content: flex-end;
+    background: rgb(0, 255, 255);
+    background: linear-gradient(
+      72deg,
+      rgba(20, 255, 236, 1) 0%,
+      rgba(20, 255, 236, 1) 47%,
+      rgba(252, 176, 69, 0) 62%
+    );
+  }
 }
-.hero_info{
-    margin: 0 0 7.5em 6.3em;
+.hero_content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.hero_info h1{
-    font-size: 72px;
+.hero_info {
+  margin: 0 0 7.5em 6.3em;
+  > * {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 4.5em;
     font-weight: 600;
     color: #212121;
-}
-.hero_info h4{
-    font-size: 40px;
+  }
+  h4 {
+    font-size: 2.5em;
     color: #323232;
     font-weight: 400;
-}
-.hero_info h5{
-    font-size: 32px;
+  }
+  h5 {
+    font-size: 2em;
     color: #707070;
     font-weight: 400;
+  }
 }
-.hero_info>*{
-    margin:0;
-    padding: 0;
-}
-@media screen and (max-width:768px){
-  .hero_info{
+@media screen and (max-width: 768px) {
+  .hero_info {
     margin: 0 0 3.5em 3em;
+    h1 {
+      font-size: 3em;
+    }
+    h4 {
+      font-size: 2em;
+    }
+    h5 {
+      font-size: 1.5em;
+    }
   }
-  .hero_info h1{
-    font-size:48px
-  }
-  .hero_info h4{
-    font-size:32px
-  }
-  .hero_info h5{
-    font-size:24px
-  }
-
 }
-@media screen and (max-width:425px){
-  .hero_image-container{
-    background: linear-gradient(72deg, rgba(0,255,255,1) 0%, rgba(0,255,255,1) 40%, rgba(252,176,69,0) 62%);
+@media screen and (max-width: 425px) {
+  $ancho: 425px;
+  .hero {
+    height: $ancho * $proporcionFoto;
   }
-  .hero_image{
-    left: -40%;
+  .hero_image-container {
+    background: linear-gradient(
+      72deg,
+      rgba(0, 255, 255, 1) 0%,
+      rgba(0, 255, 255, 1) 40%,
+      rgba(252, 176, 69, 0) 62%
+    );
+  }
+  .hero_image {
+    height: unset;
+    width: 100%;
+    left: 0;
     position: absolute;
   }
-  .hero_info{
-    margin: 0 7em 0em 2em;
+  .hero_info {
+    margin: 0 0em 3em 1em;
     height: calc(100vh - 4em);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
   }
-  .hero_info h1{
-    font-size:40px
+
+  .hero_info h1 {
+    font-size: 2em;
   }
-  .hero_info h4{
-    font-size:24px
+  .hero_info h4 {
+    font-size: 1.25em;
   }
-  .hero_info h5{
-    font-size:20px
+  .hero_info h5 {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 320px) {
+  $ancho: 320px;
+  .hero {
+    height: $ancho * $proporcionFoto;
+  }
+
+  .hero_info {
+    margin: 0;
   }
 }

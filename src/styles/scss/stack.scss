@@ -19,7 +19,7 @@
   }
 
   h3 {
-    font-size: 40px;
+    font-size: 2.5em;
     color: white;
     margin-bottom: 0.5em;
   }
@@ -59,14 +59,41 @@
   }
   .stack_info {
     h3 {
-      font-size: 32px;
+      font-size: 2em;
     }
     h4 {
-      font-size: 30px;
+      font-size: 1.8em;
     }
     .stacklogo {
       width: 7em;
       height: 4em;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .stack{
+    height: unset;
+  }
+}
+@media screen and (max-width: 425px) {
+  .stack{
+    padding: 1em;
+  }
+  .stacklogo{
+    width: 5em;
+    height: 4em;
+    &:hover{
+      width: 6em;
+    height: 5em;
+    }
+  }
+  .stack_info{
+    h2{
+      font-size: 1.8em;
+    }
+    h4{
+      font-size:1.1em;
+      line-height: 1.5;
     }
   }
 }
