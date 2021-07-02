@@ -102,3 +102,41 @@
 .email:hover{
     color:red
 }
+@media screen and (max-width:425px){
+    .article{
+        padding: 2em;
+    }
+    .article_title{
+        h1{
+            font-size: 1.5em;
+            margin:0;
+        }
+    }
+    .article_author-image img {
+    height: 1.5em;
+    width: 1.5em;
+    }
+    .article_author, .article_date, .article_readTime {
+        font-size: .6em;
+    }
+    .article_content p {
+        font-size: .8em;
+    }
+    .shareSection{
+        flex-direction: column;
+        margin: 1em 0;
+        H3{
+            font-size: 1em;
+            margin: 0;
+        }
+    }
+    .giveMeFeedback{
+        font-size: 1em;
+        margin-bottom: 0;
+        a{
+            text-decoration: none;
+            color:#24d2a4;
+            font-family: "Raleway";
+        }
+    }
+}

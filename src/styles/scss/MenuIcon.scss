@@ -7,9 +7,18 @@
     color: #212121;
     fill: currentColor;
     position: fixed;
+    transition: .3s;
 }
 @media screen and (max-width:767px){
-.menu{
-    display: block;
+    .menu{
+        display: block;
+    }
 }
+@media screen and (max-width:425px){
+    .menuReverse{
+        transition: .3s;
+        left:unset;
+        right: 1em;
+        height: 25px;
+    }
 }

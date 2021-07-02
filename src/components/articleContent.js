@@ -25,11 +25,14 @@ function ArticleContent() {
         </div>
       </div>
       <figure className="article_image-principal">
-        <img src="https://i.imgur.com/3w92n12.jpg" alt="" />
+        <img src="https://i.imgur.com/3w92n12l.jpg" alt="" />
       </figure>
       <div className="article_content">
         <p>
-          En la actualidad pos
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
         </p>
       </div>
       <div className="article_tags">

@@ -4,9 +4,16 @@ import ArticleContent from '../components/articleContent'
 import "../styles/scss/articlePage.scss"
 
 class ArticlePage extends React.Component{
+   
     componentDidMount(){
-        window.scroll(0, 0)
+    var menu=document.querySelector(".menu");
+    window.scroll(0, 0);
+        menu.classList.add("menuReverse")
     }
+    componentWillUnmount(){
+        var menu=document.querySelector(".menu");
+            menu.classList.remove("menuReverse")
+        }
     render(){
         return(
             <React.Fragment>
