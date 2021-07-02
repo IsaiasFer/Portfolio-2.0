@@ -15,6 +15,11 @@
         font-size: .8em;
     }
 }
+@media screen and (max-width:375px){
+    .footer{
+        height: 2em;
+    }
+}
 @media screen and (max-width:330px){
     .footer h3{
         font-size: .7em;

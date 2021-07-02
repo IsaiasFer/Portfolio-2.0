@@ -2,10 +2,12 @@ import React from "react";
 
 function Separador(props) {
   let alto;
-  if(window.innerWidth<=425){
-    alto="40px"
-  }else{
-    alto="93px"
+  if (window.innerWidth > 425) {
+    alto = "93px";
+  } else if (window.innerWidth <= 425) {
+    window.addEventListener("resize", function () {
+      alto = window.innerWidth / 10+"px";
+    });
   }
   if (props.bottom) {
     if (props.reverse) {

@@ -82,7 +82,7 @@
   .studySection {
     height: unset;
     min-height: unset;
-    padding: 1em 1em;
+    padding: 1em;
     > h3 {
       margin: .5em 0 1em;
       font-size: 2em;
@@ -104,7 +104,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .studySection {
-    padding: 0;
+  .studySection{
+    padding: .5em;
   }
 }
