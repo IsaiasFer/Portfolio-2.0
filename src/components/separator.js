@@ -4,10 +4,14 @@ function Separador(props) {
   let alto;
   if (window.innerWidth > 425) {
     alto = "93px";
-  } else if (window.innerWidth <= 425) {
-    window.addEventListener("resize", function () {
-      alto = window.innerWidth / 10+"px";
-    });
+  } else {
+    if (window.innerWidth <= 320) {
+      alto = "20px";
+    } else if (window.innerWidth <= 375) {
+      alto = "30px";
+    } else if (window.innerWidth <= 425) {
+      alto = "40px";
+    }
   }
   if (props.bottom) {
     if (props.reverse) {

@@ -3,6 +3,7 @@ import React from "react";
 function BlogHero() {
   return (
     <section className="blog_hero">
+      <img className="picBook" src="https://i.imgur.com/74ucB7b.png" alt="" />
       <div className="blog_presentation">
         <div className="blog_title">
           <h1>BlogSpace</h1>
@@ -17,7 +18,8 @@ function BlogHero() {
         </div>
       </div>
       <div className="blog_hero-image">
-          <img src='https://i.imgur.com/m8ChFM8.png' alt="" />
+          <img className="picFont" src='https://i.imgur.com/m8ChFM8.png' alt="" />
+          
       </div>
     </section>
   );

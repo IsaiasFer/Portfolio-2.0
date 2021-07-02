@@ -13,7 +13,7 @@
     "sass": "^1.35.1",
     "web-vitals": "^1.1.1"
   },
-  "homepage": "https://isaiasfer.github.io/PortfolioBuild/",
+  "homepage": "http://isaiasfer.tk",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
