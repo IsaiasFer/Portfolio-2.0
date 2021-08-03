@@ -103,24 +103,34 @@
     color:red
 }
 @media screen and (max-width:425px){
+    .article_data{
+        flex-direction: column;
+        align-items: flex-start;
+        &2{
+            margin-left: 2em;
+        }
+    }
     .article{
-        padding: 2em;
+        padding: .5em 1em 1em;
     }
     .article_title{
         h1{
-            font-size: 1.5em;
+            font-size: 2em;
             margin:0;
         }
     }
     .article_author-image img {
     height: 1.5em;
     width: 1.5em;
-    }
+}
     .article_author, .article_date, .article_readTime {
-        font-size: .6em;
+        font-size: 1em;
     }
     .article_content p {
-        font-size: .8em;
+        font-size: 1em;
+        font-family: "Raleway";
+        font-weight: 500;
+        margin: 1.5em 0;
     }
     .shareSection{
         flex-direction: column;
@@ -138,5 +148,10 @@
             color:#24d2a4;
             font-family: "Raleway";
         }
+    }
+}
+@media screen and (max-width:400px){
+    .article{
+        padding: .5em .5em 1em;
     }
 }

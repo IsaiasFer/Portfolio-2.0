@@ -34,11 +34,17 @@ function ArticleContent() {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
+        </p>
       </div>
       <div className="article_tags">
-        <ArticleTag tag="inspiration" />
-        <ArticleTag tag="inspiration" />
-        <ArticleTag tag="inspiration" />
+        <ArticleTag tag="Inspiracion" />
+        <ArticleTag tag="Sociedad" />
+        <ArticleTag tag="Web" />
       </div>
       <div className="shareSection">
         <h3>Compartir</h3>

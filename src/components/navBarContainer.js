@@ -16,7 +16,7 @@ function NavBarContainer(props) {
             <a href="#Projects">Proyectos</a>
           </li>
           <li>
-            <a href="/">Trabaja conmigo</a>
+            <a href="mailto:isafernande04@gmail.com?subject=Quiero%20contactarme%20con%20vos!&body=Hola%20Isaias!%2C%20quer%C3%ADa%20decirte%20que%20...">Trabaja conmigo</a>
           </li>
         </ul>
       </nav>
