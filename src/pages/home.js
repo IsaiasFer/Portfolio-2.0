@@ -8,8 +8,10 @@ import Stack from "../components/stack";
 import Study from "../components/study";
 import Separador from "../components/separator";
 
+
 import "../styles/scss/globalStyles.scss";
 import "../styles/scss/homePage.scss";
+import { desvanecimiento } from "../scripts/functions";
 
 class Home extends React.Component {
 
@@ -25,10 +27,12 @@ class Home extends React.Component {
     const projectLink=document.querySelector(".projectLink")
     projectLink.classList.remove("oculto")
     window.scroll(0, 0)
+    desvanecimiento()
 }
   componentWillUnmount(){
     const projectLink=document.querySelector(".projectLink")
     projectLink.classList.add("oculto")
+    desvanecimiento()
   }
   render() {
     return (

@@ -29,6 +29,7 @@
   .barra_navegación {
     width: 45%;
     padding: 0 0 0 3em;
+    z-index: 3;
   }
 }
 @media screen and (max-width: 767px) {
@@ -44,9 +45,10 @@
     bottom: 0;
     left: -100vw;
     background-color: wheat;
-    z-index: 1;
+    z-index: 3;
     li {
       margin: 1em 0;
+      z-index:3;
     }
   }
   .lista_navegacion.isActive {

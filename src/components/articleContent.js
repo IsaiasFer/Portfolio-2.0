@@ -29,16 +29,10 @@ function ArticleContent() {
       </figure>
       <div className="article_content">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
+          En los ultimos días me he encontrado con varias situaciones incomodas relacionadas con la desinformación. 
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt et ab sint iusto asperiores debitis veritatis, possimus temporibus. Nemo consectetur fuga deleniti sapiente cum repudiandae perspiciatis ratione eligendi similique!
+          
         </p>
       </div>
       <div className="article_tags">
