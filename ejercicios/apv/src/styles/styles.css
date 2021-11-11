@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "PokemonFont";
+    src: url("../fonts/Pokemon\ Solid.ttf");
+  }
+
+  @font-face {
+    font-family: "pixelpe";
+    src: url("../fonts/VCR_OSD_MONO_1.001.ttf");
+  }
+
+
+.card{
+    display: flex;
+
+    color:#2f596d;
+    color:#5e99ae;
+    color:#9dc3cf;
+    color:#b13840;
+    color:#b3b8bb;
+    color:#131517;
+}
+.pokemonImage{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.pokemonImage img,.pokeimg{
+    height: 10em;
+}
+body{
+    font-family: "PokemonFont";
+    padding:0;
+    margin:0;
+    background: #2f596d;
+}
+
+body>*>*, #app,#contenedor-carta{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2,p{
+    margin:0;
+}
+main{
+    width:80%;
+}
+h3{
+    margin:0;
+}
+button{
+    margin:.5em;
+    font-family: "pixelpe";
+    border-radius: 5px;
+    border: 1px solid #131517;
+    background: #9dc3cf;
+    cursor: pointer;
+    height: 1.5em;
+    transition: .3s;
+}
+
+button:hover{
+    height: 2em;
+    background: #b13840;
+}
+
+.Pokedex{
+    font-size: 3em;
+    color:#f7c505;
+    -webkit-text-stroke:2px #154780;
+}
+
+#contenedor-listado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textUp{
+    color:#9dc3cf;
+    -webkit-text-stroke: 1px #131517;
+}
+
+.textDown{
+    color: #5e99ae;
+    -webkit-text-stroke: 1px #131517;
+}
+blockquote{
+    height: .5em;
+    color: #f7c505;
+    -webkit-text-stroke: 1px #154780;
+}
