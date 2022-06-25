@@ -12,6 +12,7 @@ import Separador from "../components/separator";
 import "../styles/scss/globalStyles.scss";
 import "../styles/scss/homePage.scss";
 import { desvanecimiento } from "../scripts/functions";
+import AwardsSections from "../components/awards";
 
 class Home extends React.Component {
 
@@ -26,7 +27,7 @@ class Home extends React.Component {
     menu.append(projectLink) */
     const projectLink=document.querySelector(".projectLink")
     projectLink.classList.remove("oculto")
-    window.scroll(0, 0)
+    window.scroll(0, 0) 
     desvanecimiento()
 }
   componentWillUnmount(){
@@ -38,12 +39,13 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <Hero />
+        <Separador color="#212121" bottom />
+        {/* <FafeSection /> */}
+        <Stack />
         <Separador color="white" bottom />
         <AboutMe />
-        <Separador color="#0d7377" bottom />
-        <FafeSection />
-        <Stack />
         <Projects />
+        <AwardsSections/>
         <Study />
         <BottomSection />
       </React.Fragment>

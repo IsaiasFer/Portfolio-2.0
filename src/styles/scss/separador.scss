@@ -1,5 +1,6 @@
 .separadorSection {
   position: relative;
+  padding:0;
 }
 .custom-shape-divider {
   position: absolute;
@@ -11,7 +12,7 @@
   &-bottom {
     @extend .custom-shape-divider;
     top:unset;
-    bottom: 0;
+    bottom: -1px;
     transform: rotate(180deg);
   }
 }

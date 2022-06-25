@@ -11,6 +11,7 @@
   width: 100%;
 }
 .lista_navegacion {
+  transition: .3s;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -19,6 +20,7 @@
   li {
     list-style: none;
     font-weight: 600;
+    transition: .3s;
     a {
       text-decoration: none;
       color: #323232;
@@ -44,7 +46,7 @@
     top: 0;
     bottom: 0;
     left: -100vw;
-    background-color: wheat;
+    background-color: #14ffec;
     z-index: 3;
     li {
       margin: 1em 0;

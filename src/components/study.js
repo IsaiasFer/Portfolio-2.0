@@ -25,13 +25,13 @@ function Study(){
                     time='2020'
                 />
                 <School
-                    url='https://isaiasfer.github.io/SchoolWeb-2.0/'
+                    url='https://eetn3141.edu.ar'
                     class='schoolSection'
                     image='https://i.imgur.com/7ymG1mA.png'
                     title='EETN° 3141'
                     description='Escuela de Educación Técnica Número 3141'
                     courses='Tecnicatura Química'
-                    time='2016 - actulmente'
+                    time='2016 - actualmente'
                 />
                 <School
                     url='http://www.unsa.edu.ar/web/index.php'

@@ -4,7 +4,6 @@
   height: 100vh;
   width: 100%;
   background: white;
-  padding: 3% 6% 0;
   box-sizing: border-box;
 }
 .projects > h3 {
@@ -23,7 +22,6 @@
   display: flex;
   width: 46%;
   height: 35%;
-  margin-left: 2%;
 }
 .projectLogo {
   display: none;
@@ -36,6 +34,37 @@
   justify-content: center;
   width: 43%;
   margin-left: 2%;
+  a {
+    > * {
+      height: 110px;
+      width: 230px;
+      background-repeat: no-repeat;
+      transition: 0.3s;
+      background-position: center;
+      background-size: contain;
+    }
+    .VideoHub {
+      background-image: url("https://i.imgur.com/lx3AT9Z.png");
+
+      &:hover {
+        background-image: url("https://i.imgur.com/5mDElSL.png");
+      }
+    }
+    .SchoolWebPage {
+      background-image: url("https://i.imgur.com/7ymG1mA.png");
+
+      &:hover {
+        background-image: url("https://i.imgur.com/4L0WtEE.png");
+      }
+    }
+    .TouchIt {
+      background-image: url("https://i.imgur.com/UBLAwbk.png");
+
+      &:hover {
+        background-image: url("https://i.imgur.com/4KQdnKa.png");
+      }
+    }
+  }
 }
 .project_info {
   width: 53%;
@@ -46,6 +75,10 @@
   max-height: 8em;
   object-fit: contain;
   margin-bottom: 5%;
+  transition: 0.3s;
+  &:hover {
+    width: 105%;
+  }
 }
 .project_info h3,
 .project_info p {
@@ -66,14 +99,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-left: 1em;
 }
 .tech_icons {
   height: 1.2em;
-  margin-right: 1em;
+  margin: 0 .5em;
   fill: currentcolor;
   /*    transform:translate(0 -0.45) */
 }
+
 @media screen and (max-width: 768px) {
   .projects {
     height: 160vh;
@@ -97,18 +130,18 @@
 @media screen and (max-width: 425px) {
   .projects {
     height: unset;
-    >h3{
-        font-size: 2em;
-        margin:.5em 0 0;
+    > h3 {
+      font-size: 2em;
+      margin: 0.5em 0 0;
     }
   }
-  .project_group{
-      margin:1.5em 0;
+  .project_group {
+    margin: 1.5em 0;
   }
-  .project_info{
-      p{
-        font-size: 0.75em;
-        line-height: 1.5;
-      }
+  .project_info {
+    p {
+      font-size: 0.75em;
+      line-height: 1.5;
+    }
   }
 }
