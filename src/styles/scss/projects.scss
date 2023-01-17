@@ -17,6 +17,7 @@
   flex-wrap: wrap;
   height: 80%;
   width: 100%;
+  justify-content: space-around;
 }
 .project_group {
   display: flex;
@@ -37,7 +38,7 @@
   a {
     > * {
       height: 110px;
-      width: 230px;
+      width: 100%;
       background-repeat: no-repeat;
       transition: 0.3s;
       background-position: center;

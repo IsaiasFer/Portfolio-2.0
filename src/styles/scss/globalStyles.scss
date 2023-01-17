@@ -36,3 +36,13 @@ a{
     transition:.5s;
     z-index: 1;
   }
+@media screen and (max-width:921px){
+    section{
+        padding: .5em 1em .5em 2.5em; ;
+    }
+}
+@media screen and (max-width:426px){
+    section{
+        padding: .5em 1em .5em 1em; ;
+    }
+}
